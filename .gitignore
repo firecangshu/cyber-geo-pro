@@ -1,0 +1,44 @@
+# Python 缓存 / 字节码
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 环境与密钥（永远不提交）
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*_rsa_key*
+secrets.json
+credentials.json
+
+# 私产服务端目录（不随 Skill 资产公开）
+server/
+deploy_pkg*.zip
+*_backup_*/
+_scf_build/
+_wheels/
+
+# 联调与支付状态（含真实账单 / 订单号）
+.state/
+*.db
+*.sqlite
+*.sqlite3
+report*.json
+snapshot*.json
+
+# 备份与中间产物
+*.bak-*
+*.bak
+*.orig
+*.tmp
+*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
